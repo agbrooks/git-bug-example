@@ -1,2 +1,2 @@
 # git-bug-example
-Simple test case for a Nix bug report
+A trivial example created for a Nix bug report related to tag handling in `builtins.fetchGit`.
