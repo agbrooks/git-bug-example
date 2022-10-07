@@ -11,7 +11,7 @@
       let pkgs = import nixpkgs { inherit system; };
        in rec {
          packages.default = pkgs.writeShellScriptBin "which-tag-was-cloned" ''
-           echo -e "\e[32m>>> sources came from tag-a! <<<\e[0m"
+           echo -e "\e[36m>>> sources came from tag-b! <<<\e[0m"
          '';
          apps.default = flake-utils.lib.mkApp {
            drv = packages.default;
